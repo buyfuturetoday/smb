@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <SharePointSiteUrl>http://custompc/</SharePointSiteUrl>
+    <GeneratedFeatureId>c15e7412-0293-4d15-9e9a-44087f97d6a9</GeneratedFeatureId>
+    <GeneratedPackageId>9a718665-4d51-4067-a59d-3c12d232d56d</GeneratedPackageId>
+    <GeneratedModuleId>{c0718798-71b7-42b8-a2d4-819e1760b529}</GeneratedModuleId>
+    <GeneratedListId>{11dd2854-1b90-496c-a3ad-614a0f63d811}</GeneratedListId>
+    <GeneratedProductId>{9c9ebe0f-cdfd-4698-bed4-6131451d263a}</GeneratedProductId>
+    <GeneratedAppVersion>1.0.0.0</GeneratedAppVersion>
+    <GeneratedClientSecret>4xcI6lBqcKp9T0rF/3PpglDMqcEov2Re6vjgLQ6clCU=</GeneratedClientSecret>
+  </PropertyGroup>
+</Project>

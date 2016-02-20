@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TableTemplates", "TableTemplates\TableTemplates.csproj", "{FC674D08-8927-4D82-8AFB-D0F593AC61FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TableTemplatesWeb", "TableTemplatesWeb\TableTemplatesWeb.csproj", "{BE238BD2-DEE5-4389-9EB6-25504B18F8DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC674D08-8927-4D82-8AFB-D0F593AC61FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC674D08-8927-4D82-8AFB-D0F593AC61FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC674D08-8927-4D82-8AFB-D0F593AC61FB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FC674D08-8927-4D82-8AFB-D0F593AC61FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC674D08-8927-4D82-8AFB-D0F593AC61FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC674D08-8927-4D82-8AFB-D0F593AC61FB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{BE238BD2-DEE5-4389-9EB6-25504B18F8DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE238BD2-DEE5-4389-9EB6-25504B18F8DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE238BD2-DEE5-4389-9EB6-25504B18F8DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE238BD2-DEE5-4389-9EB6-25504B18F8DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

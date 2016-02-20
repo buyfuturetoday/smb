@@ -1,0 +1,8 @@
+C:\Users\Uday\Documents\Projects\R&D\TableTemplates\TableTemplates\obj\Debug\TableTemplates.csprojResolveAssemblyReference.cache
+C:\Users\Uday\Documents\TableTemplates\TableTemplates\obj\Debug\TableTemplates.csprojResolveAssemblyReference.cache
+C:\Users\Uday\Documents\TableTemplates - Working COPY\TableTemplates\obj\Debug\TableTemplates.csprojResolveAssemblyReference.cache
+C:\xampp\htdocs\demo\excelTemplates\Published\TableTemplates - Working COPY\TableTemplates\obj\Debug\TableTemplates.csprojResolveAssemblyReference.cache
+F:\My Projects\VAS-FINAL\SmarterSMB-LatestCode\LatestCode\TableTemplates - Working COPY\TableTemplates\obj\Debug\TableTemplates.csprojResolveAssemblyReference.cache
+C:\Users\srikanth\Desktop\SmarterSMB-LatestCode\LatestCode\TableTemplates - Working COPY\TableTemplates\obj\Debug\TableTemplates.csprojResolveAssemblyReference.cache
+C:\Users\srikanth\Desktop\My Projects\SmarterSMB-LatestCode (3)\SmarterSMB-LatestCode\LatestCode\TableTemplates - Working COPY\TableTemplates\obj\Debug\TableTemplates.csprojResolveAssemblyReference.cache
+C:\Users\Uday\Documents\Microsoft\PALS\SmarterSMB-Excel-plugin\SMBL\SmarterSMB-LatestCode\LatestCode\TableTemplates - Working COPY\TableTemplates\obj\Debug\TableTemplates.csprojResolveAssemblyReference.cache

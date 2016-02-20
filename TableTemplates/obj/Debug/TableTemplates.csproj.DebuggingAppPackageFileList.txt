@@ -1,0 +1,2 @@
+bin\Debug\OfficeAppManifests\TableTemplates.xml
+C:\Users\Uday\Documents\Microsoft\PALS\SmarterSMB-Excel-plugin\SMBL\SmarterSMB-LatestCode\LatestCode\TableTemplates - Working COPY\TableTemplates\bin\Debug\TableTemplates.debugapp

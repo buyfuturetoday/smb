@@ -1,0 +1,2 @@
+bin\Debug\app.publish\OfficeAppManifests\TableTemplates.xml
+C:\Users\srikanth\Desktop\SmarterSMB-LatestCode\LatestCode\TableTemplates - Working COPY\TableTemplates\bin\Debug\app.publish\TableTemplates.app

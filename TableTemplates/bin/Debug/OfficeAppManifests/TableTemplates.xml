@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="TaskPaneApp">
+  <Id>e412e0ef-44dd-4685-b5f7-dfd7a001e628</Id>
+  <Version>1.0</Version>
+  <ProviderName>Uday Kanth Gummadi</ProviderName>
+  <DefaultLocale>en-US</DefaultLocale>
+  <DisplayName DefaultValue="SmarterSMB Business Manager" />
+  <Description DefaultValue="SmarterSMB Business Manager"/>
+  <IconUrl DefaultValue="https://localhost:44300/Images/TableTemplates.png" />
+  <AppDomains>
+    <AppDomain>https://login.microsoftonline.com</AppDomain>
+    <AppDomain>https://login.windows.net</AppDomain>
+    <AppDomain>https://login.live.com/</AppDomain>
+  </AppDomains>
+  <Capabilities>
+    <Capability Name="Workbook" />
+  </Capabilities>
+  <DefaultSettings>
+    <SourceLocation DefaultValue="https://localhost:44300/Pages/TableTemplates.html" />
+  </DefaultSettings>
+  <Permissions>ReadWriteDocument</Permissions>
+</OfficeApp>

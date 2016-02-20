@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <ProjectGuid>{BE238BD2-DEE5-4389-9EB6-25504B18F8DE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>TableTemplatesWeb</RootNamespace>
+    <AssemblyName>TableTemplatesWeb</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort>44300</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication>enabled</IISExpressAnonymousAuthentication>
+    <IISExpressWindowsAuthentication>disabled</IISExpressWindowsAuthentication>
+    <IISExpressUseClassicPipelineMode>false</IISExpressUseClassicPipelineMode>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\App.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\daterangepicker.css" />
+    <Content Include="Images\SliderImage.png" />
+    <Content Include="Images\smartersmb-logo.png" />
+    <Content Include="Images\smb-logo.jpg" />
+    <Content Include="Images\smbIconUrl.png" />
+    <Content Include="Pages\TableTemplates_old_version.html" />
+    <Content Include="Pages\TableTemplates.html" />
+    <Content Include="Scripts\Office\bootstrap.min.css" />
+    <Content Include="Scripts\Office\bootstrap.min.js" />
+    <Content Include="Scripts\daterangepicker.js" />
+    <Content Include="Content\jquery.datetimepicker.css" />
+    <Content Include="Scripts\moment.min.js" />
+    <Content Include="Scripts\Office.css" />
+    <Content Include="Images\logout.png" />
+    <Content Include="Images\smarter-biz-logo.jpg" />
+    <Content Include="Images\TableTemplateIcon-Contacts.png" />
+    <Content Include="Images\TableTemplateIcon-Expenses.png" />
+    <Content Include="Images\TableTemplateIcon-Issues.png" />
+    <Content Include="Images\TableTemplateIcon-Tasks.png" />
+    <Content Include="Images\TableTemplateIcon.png" />
+    <Content Include="Images\TableTemplates.png" />
+    <Content Include="packages.config" />
+    <Content Include="Images\smarterSMBV1.0.xlsx" />
+    <Content Include="Images\SmarterSMB-Business-Manager-TemplateV1.xlsx" />
+    <Content Include="Images\SmarterSMB-Business-Manager-Template.xlsx" />
+    <None Include="Properties\PublishProfiles\smbbft.pubxml" />
+    <None Include="Properties\PublishProfiles\smbexcel.pubxml" />
+    <None Include="Properties\PublishProfiles\smbtaskpane.pubxml" />
+    <None Include="Scripts\jquery-1.6.2-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.6.2.js" />
+    <Content Include="Scripts\jquery-1.6.2.min.js" />
+    <Content Include="Scripts\jquery.datetimepicker.full.js" />
+    <Content Include="Scripts\Office\App.js" />
+    <Content Include="Scripts\Office\smarteraddin_old_version.js" />
+    <Content Include="Scripts\Office\smarteraddin.js" />
+    <Content Include="Scripts\Office\en-us\office_strings.debug.js" />
+    <Content Include="Scripts\Office\es-es\office_strings.debug.js" />
+    <Content Include="Scripts\Office\excel-15.debug.js" />
+    <Content Include="Scripts\Office\excelwebapp-15.debug.js" />
+    <Content Include="Scripts\Office\ja-jp\office_strings.debug.js" />
+    <None Include="Scripts\Office\jquery-1.9.1.intellisense.js" />
+    <Content Include="Scripts\Office\jquery-1.9.1.js" />
+    <Content Include="Scripts\Office\jquery-1.9.1.min.js" />
+    <Content Include="Scripts\Office\MicrosoftAjax.js" />
+    <Content Include="Scripts\Office\jquery-1.9.1.min.map" />
+    <None Include="Scripts\Office\Office-vsdoc.js" />
+    <Content Include="Scripts\Office\Office.js" />
+    <None Include="Scripts\Office\outlook-15.debug-vsdoc.js" />
+    <Content Include="Scripts\Office\outlook-15.debug.js" />
+    <Content Include="Scripts\Office\outlookwebapp-15.debug.js" />
+    <Content Include="Scripts\Office\project-15.debug.js" />
+    <Content Include="Scripts\Office\siteTypesOffice.js" />
+    <Content Include="Scripts\Office\smarterSMB.js" />
+    <Content Include="Scripts\Office\word-15.debug.js" />
+    <Content Include="Scripts\smarterSMB-V1.1.xml" />
+    <Content Include="Scripts\TableTemplates_old_version.js" />
+    <Content Include="Scripts\TableTemplates.js" />
+    <Content Include="Scripts\TableTemplates_working.js" />
+    <Content Include="Scripts\_references.js" />
+    <Content Include="smb-logo.ico" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>smb-logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>48705</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44300/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>https://smbexcel.azurewebsites.net/</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

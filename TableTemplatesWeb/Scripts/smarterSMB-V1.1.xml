@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Published:70EDFC97-B41D-43C5-B751-7C00AD999804-->
+<OfficeApp xmlns=
+  "http://schemas.microsoft.com/office/appforoffice/1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:type="TaskPaneApp">  
+  <Id>e412e0ef-44dd-4685-b5f7-dfd7a001e626</Id>
+  <Version>1.0.0.0</Version>
+  <ProviderName>Smarter biz Technologies Private Limited</ProviderName>
+  <DefaultLocale>en-US</DefaultLocale>
+  <DisplayName DefaultValue="SmarterSMB Business Manager">
+    <Override Locale="en-US" Value="SmarterSMB Business Manager"/> 
+  </DisplayName>
+  <Description DefaultValue="The Excel add-in creates an automated system where the sales managers can assign sales leads to their teams within Excel, and then view the update real-time within Excel as well. So, this add-in would convert Excel into a CRM tool. The managers assign customer leads to their sales force which get automatically synced to the sales person’s SmarterSMB android app. The sales person can now call up the customer and set further appointments and reminders. This gets synced back automatically to the manager’s excel sheet in real time, thus giving CRM functionality to the Excel sheet.">
+    <Override Locale="en-US" Value="The Excel add-in creates an automated system where the sales managers can assign sales leads to their teams within Excel, and then view the update real-time within Excel as well. So, this add-in would convert Excel into a CRM tool. The managers assign customer leads to their sales force which get automatically synced to the sales person’s SmarterSMB android app. The sales person can now call up the customer and set further appointments and reminders. This gets synced back automatically to the manager’s excel sheet in real time, thus giving CRM functionality to the Excel sheet."/>
+  </Description>
+   <IconUrl DefaultValue="https://smbexcel.azurewebsites.net/Images/TableTemplates.png">
+    <Override Locale="en-US" Value="https://smbexcel.azurewebsites.net/Images/TableTemplates.png"/>
+  </IconUrl>
+    <AppDomains>
+    <AppDomain>https://smartersmb.azurewebsites.net</AppDomain>
+    <AppDomain>https://appsforoffice.microsoft.com</AppDomain>
+    <AppDomain>https://ajax.googleapis.com</AppDomain>
+    <AppDomain>https://maxcdn.bootstrapcdn.com</AppDomain>
+    <AppDomain>https://www.youtube.com</AppDomain>
+    <AppDomain>https://smbexcel.azurewebsites.net</AppDomain>
+  </AppDomains>
+  <Hosts>
+    <Host Name = "Workbook"/>
+  </Hosts>
+  <SupportUrl DefaultValue="http://www.smarter-biz.com/#contact"/>
+  <Capabilities>
+    <Capability Name="Workbook" />
+  </Capabilities>
+  <DefaultSettings>
+   <SourceLocation DefaultValue="https://smbexcel.azurewebsites.net/Pages/TableTemplates.html">
+      <Override Locale="en-US" Value="https://smbexcel.azurewebsites.net/Pages/TableTemplates.html"/>
+    </SourceLocation>
+  </DefaultSettings>
+  <Permissions>ReadWriteDocument</Permissions>
+</OfficeApp>
