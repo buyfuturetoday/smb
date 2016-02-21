@@ -277,7 +277,7 @@ function readBoundData(userid) {
                         var appointmentstartdate = asyncResult.value[i][7] + " " + asyncResult.value[i][8];
                         var appointmentenddate = asyncResult.value[i][9] + " " + asyncResult.value[i][10];
 
-                        var postdatavalue = { "user_id": userid, "from": asyncResult.value[i][11], "to": asyncResult.value[i][12], "event_start_date": appointmentstartdate, "event_end_date": appointmentenddate, "location": asyncResult.value[i][13], "subject": asyncResult.value[i][4], "description": datapost, "repeat_params": asyncResult.value[i][14], "time_zone": asyncResult.value[i][15], "proxy_email": asyncResult.value[i][16] };
+                        var postdatavalue = { "user_id": userid, "from": asyncResult.value[i][11], "to": asyncResult.value[i][12], "event_start_date": appointmentstartdate, "event_end_date": appointmentenddate, "location": asyncResult.value[i][13], "subject": asyncResult.value[i][4], "description": datapost, "repeat_params": asyncResult.value[i][14], "time_zone": asyncResult.value[i][15], "proxy_email": asyncResult.value[i][18] };
 
 
 
