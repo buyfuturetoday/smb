@@ -1,11 +1,17 @@
 ﻿
 window.config = {
-    tenant: 'buyfuturetoday.com',
+    //tenant: 'buyfuturetoday.com',
     //clientId: '3c027d1a-2036-4c34-8f15-43190590dba6',
     //clientId: '44435a15-a1c1-4ffa-8121-41e17ad0547a', // smboffice365  buyfuturetoday.com
-    clientId: 'fa36bc18-c771-4d53-807a-c2a540f8efe4',
+    //clientId: 'fa36bc18-c771-4d53-807a-c2a540f8efe4',
     //tenant: 'udaypalsglobalsolutions.onmicrosoft.com',
     //clientId: 'dfdb1cda-cb69-4ec8-b2c4-4d259f278921',
+    //tenant: 'udaypalsglobalsolutions.onmicrosoft.com',
+    //clientId: '3e8ef62f-42cb-4bba-98c9-b97c79a4822f',
+    //clientId:'dfdb1cda-cb69-4ec8-b2c4-4d259f278921',
+    tenant: 'buyfuturetoday.com',
+    clientId: '8f09f2a3-726a-4ce1-9341-c40e5e2a9b18',
+
 
     postLogoutRedirectUri: window.location.origin,
     endpoints: {
