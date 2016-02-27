@@ -67,6 +67,14 @@
     <Content Include="Images\smbIconUrl.png" />
     <Content Include="Pages\TableTemplates_old_version.html" />
     <Content Include="Pages\TableTemplates.html" />
+    <Content Include="Scripts\jquery.timepicker.css" />
+    <Content Include="Scripts\jquery.timepicker.js" />
+    <Content Include="Scripts\lib\bootstrap-datepicker.css" />
+    <Content Include="Scripts\lib\bootstrap-datepicker.js" />
+    <Content Include="Scripts\lib\datepair.js" />
+    <Content Include="Scripts\lib\jquery.datepair.js" />
+    <Content Include="Scripts\lib\site.css" />
+    <Content Include="Scripts\lib\site.js" />
     <Content Include="Scripts\Office\bootstrap.min.css" />
     <Content Include="Scripts\Office\bootstrap.min.js" />
     <Content Include="Scripts\daterangepicker.js" />
@@ -131,6 +139,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

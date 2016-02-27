@@ -94,9 +94,9 @@
   </head>
   <body>
 
-      <div id="Binding" style="display:none;">
+      <div id="Binding_1" style="display:none;">
 </div>
-          <div id="Binding_1" style="display:none;">
+          <div id="Binding" style="display:none;">
 
               <p> Leads </p>
               <input id="bindTable" type="button" value="BindTable" onclick="bindTablebyName()">
@@ -136,37 +136,55 @@
                   <td style="padding-left:5px;">
                       <!--                    <img style="width:300px;height:220px;background-color:#ffffff;z-index:999;border:0px solid red;display:block;" src="../Images/SliderImage.png" />
                                     -->
-                      <img style="width:300px;height:220px;background-color:#ffffff;z-index:999;border:0px solid red;display:block;" src="../Images/smartersmb-logo.png" />
+                      <img style="width:300px;height:200px;background-color:#ffffff;z-index:999;border:0px solid red;display:block;" src="../Images/smartersmb-logo.png" />
                   </td>
               </tr>
               <tr>
                   <td style="padding-left:5px; font-size:14px;">
-                      <!--                      Please <a href="https://smbexcel.azurewebsites.net/Images/SmarterSMB-Business-Manager-Template.xlsx">Download</a> SmarterSMB Business Manager template.
-                -->
-                      <br />
+                      <div style="position:relative;left:10px;width:290px; border:0px solid red;">
 
-                      Welcome to SmarterSMB Business Manager
-                      <br />
-                      <ul style="list-style:none">
-                          <li>
-                              Step 1 : Install the SmarterSMB App on your Android phone
-                          </li>
+                          <!--                      Please <a href="https://smbexcel.azurewebsites.net/Images/SmarterSMB-Business-Manager-Template.xlsx">Download</a> SmarterSMB Business Manager template.
+        -->
+                          <br />
 
-                          <li>
-                              Step 2 : <a target="_blank" href="https://onedrive.live.com/redir?resid=37790A329D3ECF8B!861&authkey=!AKjZKD4ofnRTOEQ&ithint=file%2cxlsx">Download</a> SmarterSMB Business Manager template and save it
-                          </li>
-                          <li>
-                              Step 3 : Populate your customer list/leads on the template
-                          </li>
-                          <li>
-                              Step 4: Assign leads, Manage Sales persons, and get real time reports on your SmarterSMB Business Manager
-                          </li>
-                      </ul>
-                  </td>
+                          Welcome to SmarterSMB Business Manager
+                          <br />
+                          <br />
+                          <b>Step 1 : </b> the SmarterSMB App on your Android phone
+                          <br />
+                          <b>Step 2 : </b> <a target="_blank" href="https://onedrive.live.com/redir?resid=37790A329D3ECF8B!861&authkey=!AKjZKD4ofnRTOEQ&ithint=file%2cxlsx">Download</a> SmarterSMB Business Manager template and save it
+                          <br />
+                          <b>Step 3 : </b> Populate your customer list/leads on the template
+                          <br />
+                          <b>Step 4 : </b> Assign leads, Manage Sales persons, and get real time reports on your SmarterSMB Business Manager
+                          <br />
+                          <div style="position:relative; text-align:left; left:0px;">
+                              <button id="skipWelcome" onclick="skipWelcome();">Next</button>
+                          </div>
+                          <!--
+                          <ul style="list-style:none">
+                              <li>
+                                  <b>Step 1 : </b> the SmarterSMB App on your Android phone
+                              </li>
+
+                              <li>
+                                  <b>Step 2 : </b> <a target="_blank" href="https://onedrive.live.com/redir?resid=37790A329D3ECF8B!861&authkey=!AKjZKD4ofnRTOEQ&ithint=file%2cxlsx">Download</a> SmarterSMB Business Manager template and save it
+                              </li>
+                              <li>
+                                  <b>Step 3 : </b> Populate your customer list/leads on the template
+                              </li>
+                              <li>
+                                  <b>Step 4 : </b> Assign leads, Manage Sales persons, and get real time reports on your SmarterSMB Business Manager
+                              </li>
+                          </ul>
+                              -->
+                          </div>
+</td>
               </tr>
               <tr>
                   <td style="text-align:left;padding-left:5px;">
-                      <button id="skipWelcome" onclick="skipWelcome();">Next</button>
+                     <!-- <button id="skipWelcome" onclick="skipWelcome();">Next</button>
+                         -->
 
                   </td>
               </tr>
@@ -244,8 +262,8 @@
                   <table width="300" id="smbuserlogin">
                       <tr>
                           <td>
-                              <b>SMB Login</b>
-
+<!--                              <b>SmarterSMB Login</b>
+    -->
                               <div id="divLoginSMB">
                                   <br />
                                   <table width="300" height="300" border="0">
@@ -261,7 +279,7 @@
                                           <td class="inputstyle"><input style="height:30px;width:250px;" type="password" placeholder="Password" id="txtPassword" value=""></td>
                                       </tr>
                                       <tr class="smbmodelwindow">
-                                          <td style="text-align: right;padding-right: 46px;">
+                                          <td style="text-align: left;padding-right: 50px;">
                                               <!-- <input id="btnLogin" type="button" value="Login"> -->
                                               
 
@@ -276,7 +294,9 @@
                                       </tr>
                                       <tr style="padding-left:5px; font-size:12px;height:50px;">
                                           <td>
-                                              * If you are first time user please download and sign up for SmarterSMB app from the Google Play Store
+                                              <div style="width:260px; border:0px solid red;">
+                                                  * If you are first time user please download and sign up for SmarterSMB app from the Google Play Store
+                                              </div>
                                           </td>
                                       </tr>
                                       <tr style="padding-left:5px; font-size:12px;height:50px;">
@@ -320,11 +340,12 @@
                               <br />
                               <div id="Content">
                                   <div id="LeadsTableButtons" style="display:none;">
-                                      <button onclick="bindData()">Bind Selected content </button><br />
+<!--                                      <button onclick="bindData()">Bind Selected content </button><br />
                                       <button onclick="addEvent()">Add Event Handler </button><br />
                                       <button onclick="readBoundData()">Submit Leads </button><br />
-
-                                  </div>
+    -->
+                                       Please Refresh the page and if still this is continued, <a target="_blank" href="https://onedrive.live.com/redir?resid=37790A329D3ECF8B!861&authkey=!AKjZKD4ofnRTOEQ&ithint=file%2cxlsx">download</a> the new template from the link.
+</div>
 
 
 
@@ -348,17 +369,17 @@
                                           </td>
                                       </tr>
                                       <tr>
-                                          <td style="text-align:right;" height="30px">
+                                          <td style="text-align:left;" height="30px">
                                               <button id="btnSyncAgent" onclick="syncSalesAgent($('#userid').val());">Refresh Sales Person</button>
                                           </td>
                                       </tr>
-                                      <tr>
+<!--                                      <tr>
                                           <td height="20px">
                                               <font style="color:#4586BD;">Fill up the data </font>
 
                                           </td>
                                       </tr>
-
+    -->
                                       <tr>
                                           <td height="20px">
                                               <font style="color:#4586BD;">Submit Leads</font>
@@ -371,10 +392,21 @@
                                           </td>
                                       </tr>
                                       <tr>
-                                          <td style="text-align:right;" height="30px">
+                                          <td style="text-align:left;" height="30px">
                                               <button id="btnSyncAgent" onclick="readBoundData($('#userid').val());">Submit Leads</button>
                                           </td>
                                       </tr>
+                                      <tr>
+                                          <td style="text-align:right;" height="30px">
+                                              &nbsp;
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td height="30px">
+                                              Note: Please select the <b>Leads</b> Sheet in the Excel.
+                                          </td>
+                                      </tr>
+                                      
 <!--
                                       <tr>
                                           <td height="20px">
@@ -454,26 +486,41 @@
                                   </tr>
                                   <tr>
                                       <td height="25">
-                                          <font size="1">Start Date: </font><input type="text" id="startdate" name="startdate" />
+                                          <br />
+                                          <table cellspacing="2" border="0">
+                                            <tr>
+                                                <td><font size="1">Start Date: </font> &nbsp;</td>
+                                                <td><input type="text" id="startdate" name="startdate" style="width: 80px;" />&nbsp;</td>
+                                                <td><font size="1">Start Time: </font>&nbsp;</td>
+                                                <td><input style="width: 70px;" type="text" id="starttime" name="starttime" /></td>
+                                            </tr>
+                                              <tr><td colspan="4">&nbsp;</td></tr>
+                                              <tr>
+                                                  <td><font size="1">End Date: </font>&nbsp;</td>
+                                                  <td><input type="text" id="enddate" name="enddate" style="width: 80px;" />&nbsp;</td>
+                                                  <td><font size="1">End Time: </font>&nbsp;</td>
+                                                  <td><input style="width: 70px;" type="text" id="endtime" name="endtime" /></td>
+                                              </tr>
+                                              <tr>
+                                                  <td colspan="4" style="text-align:left;" height="50px">
+                                                      <button id="btnSyncSalesAgent"> View </button>
 
+                                                  </td>
+                                              </tr>
+                                            </table>
                                       </td>
                                   </tr>
                                   <tr>
-                                      <td height="25">
-                                          <font size="1"> End Date:&nbsp; </font><input type="text" id="enddate" name="enddate" /><br />
-
-                                      </td>
-                                  </tr>
-                                  <tr>
-                                      <td style="text-align:right;" height="50px">
-                                          <button id="btnSyncSalesAgent"> View </button>
-
-                                      </td>
+                                        <td>Note: Please select the <b>Status</b> Sheet in the Excel.</td>
                                   </tr>
                                   </table>
                               <br />
-                                
                                   <script type="text/javascript">
+                                      var currentdate = new Date();
+                                      var datetimenow = ""+ currentdate.getHours() + ":" + currentdate.getMinutes()+"";
+                                                     
+                                      $("#starttime").val(datetimenow);
+                                      $("#endtime").val(datetimenow);
                                   $(function () {
                                       $('input[name="startdate"]').daterangepicker({
                                           singleDatePicker: true,
@@ -495,14 +542,18 @@
                                           //alert("You are " + years + " years old.");
                                       });
                                   });
+
                                   </script>
                                   <input type="hidden" placeholder="Username" name="userName" id="userName" value="">
                                   <input type="hidden" placeholder="UserId" name="userid" id="userid" value="">
                                   <div id="Content">
                                       <div id="bindStatusTableButton" style="display:none;">
-                                          <button onclick="bindDataStatusTable()">Bind Status Sheet Table </button><br />
+<!--                                          <button onclick="bindDataStatusTable()">Bind Status Sheet Table </button><br />
                                           <button onclick="addEventStatusTable()">Add Event Handler </button><br />
                                            <input id="bindTableForStatusSheet" type="button" value="bindTableForStatusSheet" onclick="bindTableForStatusSheet()"><br /> 
+-->
+                                          Please Refresh the page and if still this is continued, <a target="_blank" href="https://onedrive.live.com/redir?resid=37790A329D3ECF8B!861&authkey=!AKjZKD4ofnRTOEQ&ithint=file%2cxlsx">download</a> the new template.
+
                                       </div>
 
                                       <!-- <input id="btnSyncSalesAgent" type="button" value="Refresh Status"> -->

@@ -70,7 +70,8 @@
 
         this.locale = {
             //format: 'MM/DD/YYYY',
-            format: 'YYYY-MM-DD',
+//            format: 'YYYY-MM-DD',
+            format: 'MM-DD-YYYY',
             separator: ' - ',
             applyLabel: 'Apply',
             cancelLabel: 'Cancel',

@@ -174,13 +174,17 @@
             day: "numeric", hour: "2-digit", minute: "2-digit"
         };
         var startdatetoapi = month_name[startdatenow.getUTCMonth()] + " " + startdatenow.getDate() + " " + startdatenow.getFullYear();
-        var startnow = new Date($("#startdate").val());
+        var startnow = new Date($("#startdate").val() +" "+ $("#starttime").val());
         var startnowUtc = new Date(startnow.getTime() + (startnow.getTimezoneOffset() * 60000));
-
-        var endnow = new Date($("#enddate").val());
+//        var startnowUtc = new Date($("#starttime").val() + (startnow.getTimezoneOffset() * 60000));
+        
+        var endnow = new Date($("#enddate").val()+" "+$("#endtime").val());
         var endnowUtc = new Date(endnow.getTime() + (endnow.getTimezoneOffset() * 60000));
+//        var endnowUtc = new Date($("#endtime").val() + (endnow.getTimezoneOffset() * 60000));
         //userid = 4423;
-        var aurl = "https://smarter-biz.com/api/getdumpusers_mails?x=" + randomh + "&user_id=" + userid + "&start_date=" + startdatetoapi + "&end_date=" + endnowUtc + "";
+//        document.getElementById('outputs').innerText = endnow.getTime();
+//        var aurl = "https://smarter-biz.com/api/getdumpusers_mails?x=" + randomh + "&user_id=" + userid + "&start_date=" + startdatetoapi + "&end_date=" + endnowUtc + "";
+        var aurl = "https://smarter-biz.com/api/getdumpusers_mails?x=" + randomh + "&user_id=" + userid + "&start_date=" + startnowUtc + "&end_date=" + endnowUtc + "";
         //document.getElementById('outputs').innerText = aurl;
 
         $.ajax({
